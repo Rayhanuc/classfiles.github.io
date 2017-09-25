@@ -1223,3 +1223,7 @@ a.comment-replay-btn {
     padding: 12px 30px;
     border-radius: 5px;
 }
+
+.author-details img {
+    border-radius: 50%;
+}
