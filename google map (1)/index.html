@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Google Map (1)</title>
+
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+
+
+		<script src="assets/js/jquery-v1.12.4.min.js"></script>
+
+	</head>
+
+
+	<body>
+		
+		<!-- Google map api key: AIzaSyAtIYRRT3P8Lvt9w2-sAUomqo3BbUBTBTI -->
+		<!-- Google map api key: AIzaSyAtIYRRT3P8Lvt9w2-sAUomqo3BbUBTBTI -->
+
+
+		<div class="section-padding">
+			<div class="container">
+				<div class="row">
+					<div class="con-md-12">
+
+						<div id="googleMap" style="width: 500px; height: 500px"></div>
+
+						<script>
+							function myMap() {
+							var mapProp= {
+							    center:new google.maps.LatLng(23.758063,90.3844153),
+							    zoom:5,
+							};
+							var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+							}
+						</script>
+
+
+						<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtIYRRT3P8Lvt9w2-sAUomqo3BbUBTBTI&callback=myMap"></script>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<script src="assets/js/scripts.js"></script>
+	</body>
+</html>
