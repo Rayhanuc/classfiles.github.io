@@ -2,25 +2,25 @@
 	"use strict"
 
 	jQuery(document).ready(function($) {
-	  var center = [22.3455632, 91.8140194];
+	   var uluru = {lat: 22.3457219, lng: 91.8119595};
     $('.map')
       .gmap3({
-        center: center,
-        zoom: 13,
-        mapTypeId : google.maps.MapTypeId.ROADMAP
+        zoom: 14,
+        center: uluru
       })
-        .infowindow({
-        content: "Hello from Uluru"
-      })
-      .circle({
-        center: center,
-        radius : 750,
-        fillColor : "#FFAF9F",
-        strokeColor : "#FF512F"
-      })
-        .marker({
+      .marker({
         position: uluru
       })
+      .infowindow({
+        content: "Hello from Chittagong"
+      })
+      .then(function (infowindow) {
+        var map = this.get(0);
+        var marker = this.get(1);
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+      });
       
 	});
 
