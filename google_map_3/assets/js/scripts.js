@@ -30,15 +30,3 @@
 
 
 }(jQuery));
-
-
-
-
-
-					function myMap() {
-						var mapProp= {
-						    center:new google.maps.LatLng(23.4521847,85.8461677),
-						    zoom:5,
-						};
-						var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-						}
