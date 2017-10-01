@@ -88,5 +88,8 @@ jQuery(document).ready(function($) {
 			columnWidth: '.col-md-3',
 			horizontalOrder: false
 		}
-	})
+	});
+	
+
+
 });
