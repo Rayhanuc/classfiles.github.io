@@ -1319,3 +1319,52 @@ a.comment-replay-btn {
 }
 
 /* error-404 page css end */
+
+/* clall-17 Dropdown-menu1 start*/
+
+.mainmenu li {
+    position: relative;
+}
+
+.mainmenu li ul {
+    position: absolute;
+    top: 20px;
+    width: 200px;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.mainmenu li ul li {
+    display: block;
+}
+
+.mainmenu li ul a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mainmenu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 53px;
+    background: #08afb5;
+}
+
+.mainmenu ul li:hover > a {
+    background: #17dae0;
+    color: #fff;
+    border-left: 4px solid #044d50;
+    border-right: 4px solid #044d50;
+    border-bottom: 4px solid #07777b;
+}
+
+.mainmenu ul li > a {
+    transition: .3s;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+/* clall-17 Dropdown-menu1 end*/
