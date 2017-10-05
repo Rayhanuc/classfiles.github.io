@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+#particles-js {
+	height: 100%;
+	background: #0d1227;
+}
+
+.heading {
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    text-align: center;
+}
+
+.heading h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.heading h2 span {
+    font-size: 123px;
+    font-weight: 300;
+}
+
+.heading li a {
+    font-size: 38px;
+    color: #fff;
+}
+
+.heading li {
+    margin-top: 20px;
+}
