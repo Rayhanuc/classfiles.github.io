@@ -1368,3 +1368,25 @@ a.comment-replay-btn {
 }
 
 /* clall-17 Dropdown-menu1 end*/
+
+/* clall-17 Multi Level Dropdown-menu2 start*/
+/* secend level dropdown menu */
+
+.mainmenu li:hover ul ul {
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+.mainmenu ul ul li ul {
+    left: 200px;
+}
+
+.mainmenu ul ul li:hover ul {
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* clall-17 Multi Level Dropdown-menu2 end*/
+
