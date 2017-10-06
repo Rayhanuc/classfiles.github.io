@@ -1,0 +1,131 @@
+header {
+	background-image: linear-gradient(#04519b, #044684 60%, #033769);
+	color: #fff;
+	min-height: 100px;
+	padding-top: 25px;
+}
+
+header form {
+    float: right;
+}
+
+header .logo {
+    float: left;
+}
+
+.panel-heading {
+	background-image: linear-gradient(#04519b, #044684 60%, #033769);
+}
+
+.panel-heading h3 {
+    color: #fff;
+}
+
+.babble {
+    position: relative;
+    width: 580px;
+    min-height: 55px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.babble:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #fff;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-top: -15px;
+    left: -15px;
+    top: 50%;
+}
+
+.babble:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #ccc;
+    display: block;
+    width: 0;
+    z-index: 0;
+    margin-top: -15px;
+    left: -16px;
+    top: 50%;
+}
+
+.comment-avatar img {
+    width: 40px;
+    margin-right: 5px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 2px;
+}
+
+.comment-text {
+    padding-top: 13px;
+}
+
+.friends li {
+    list-style: none;
+    padding: 5px;
+    display: inline;
+    float: left;
+}
+
+.friends img {
+    width: 80px;
+}
+
+.post-actions {
+    margin: 5px;
+}
+
+.comment-form .form-group {
+    width: 90%;
+}
+
+.comment-form input[type=text] {
+    width: 100%;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px 0;
+    overflow: auto;
+    width: 100%;
+}
+
+.groups img {
+    width: 80px;
+    float: left;
+    margin-right: 15px;
+}
+
+.group-item {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+footer {
+    background: #f4f4f4;
+    height: 90px;
+    color: #04519b;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+    margin-top: 30px;
+    border-top: 7px solid #04519b;
+}
+
+/* mainpage css done here */
+
