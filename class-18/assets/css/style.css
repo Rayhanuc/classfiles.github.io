@@ -1382,7 +1382,7 @@ a.comment-replay-btn {
     left: 200px;
 }
 
-.mainmenu ul ul li:hover ul {
+.mainmenu ul ul li:hover > ul {
     top: 0;
     visibility: visible;
     opacity: 1;
