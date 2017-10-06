@@ -1348,13 +1348,13 @@ a.comment-replay-btn {
 .mainmenu li:hover ul {
     opacity: 1;
     visibility: visible;
-    top: 53px;
+    top: 64px;
     background: #08afb5;
 }
 
 .mainmenu ul li:hover > a {
     background: #17dae0;
-    color: #fff;
+    color: #044d50;
     border-left: 4px solid #044d50;
     border-right: 4px solid #044d50;
     border-bottom: 4px solid #07777b;
