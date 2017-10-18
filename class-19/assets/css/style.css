@@ -689,6 +689,17 @@ span.skill-count-no {
     border-top: 10px solid #0bbbc1;
 }
 
+/* input text color change */
+input {
+    color: #000;
+}
+
+input[type=submit]{
+    color:#fff;
+}
+
+/* input text color change */
+
 input, button, textarea {
     padding: 10px;
     width: 100%;
