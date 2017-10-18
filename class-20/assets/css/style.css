@@ -249,6 +249,37 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
 }
 
+/* carousel-fade */
+
+#homepage-slide-carousel.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+#homepage-slide-carousel.carousel-fade .carousel-inner .item,
+#homepage-slide-carousel.carousel-fade .carousel-inner .active.left,
+#homepage-slide-carousel.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+#homepage-slide-carousel.carousel-fade .carousel-inner .active,
+#homepage-slide-carousel.carousel-fade .carousel-inner .next.left,
+#homepage-slide-carousel.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+#homepage-slide-carousel.carousel-fade .carousel-inner .next,
+#homepage-slide-carousel.carousel-fade .carousel-inner .prev,
+#homepage-slide-carousel.carousel-fade .carousel-inner .active.left,
+#homepage-slide-carousel.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+#homepage-slide-carousel.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/* carousel-fade */
+
+
 .homepage-slides .owl-nav
  div {
     position: absolute;

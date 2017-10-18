@@ -3,9 +3,11 @@ jQuery(document).ready(function($) {
 		items: 1,
 		loop: true,
 		nav: true,
-		dots: true,
+		dots: false,
 		navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
+		navSpeed:1200,
 		autoplay: true,
+		autoplaySpeed:1200,
 		mouseDrag: false,
 		touchDrag: false,
 	});
@@ -31,8 +33,10 @@ jQuery(document).ready(function($) {
 		margin: 30,
 		loop: true,
 		nav: false,
+		navSpeed:1200,
 		dots: true,
-		autoplay: false
+		autoplay: true,
+		autoplaySpeed:1200
 	});
 	
 	$(".testimonial-list").owlCarousel({
@@ -40,8 +44,10 @@ jQuery(document).ready(function($) {
 		margin: 30,
 		loop: true,
 		nav: false,
+		navSpeed:1200,
 		dots: true,
-		autoplay: false
+		autoplay: true,
+		autoplaySpeed:1200
 	});
 
 	$(".logo-carousel").owlCarousel({
