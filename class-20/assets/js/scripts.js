@@ -56,7 +56,7 @@ jQuery(document).ready(function($) {
 		loop: true,
 		nav: false,
 		dots: false,
-		autoplay: false
+		autoplay: true
 	});
 
 	$("#web-design-skillbar").circleProgress({
