@@ -182,6 +182,11 @@ img {max-width: 100%;height: auto}
     font-style: italic;
 }
 
+.video-window {
+    background: transparent;
+    border: transparent;
+}
+
 .video-btn {
     display: block;
     position: relative;
