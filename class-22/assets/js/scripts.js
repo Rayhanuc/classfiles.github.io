@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
 		dots: false,
 		navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
 		navSpeed:1200,
-		autoplay: false,
+		autoplay: true,
 		autoplaySpeed:1200,
 		mouseDrag: false,
 		touchDrag: false,
