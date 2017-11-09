@@ -17,9 +17,6 @@ h1 {
 }
 /* Tablet Layout 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-.slide-text h2 {
-    font-size: 35px;
-}
 
 }
 /* Tablet & Mobile Layout 768px. */
