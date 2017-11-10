@@ -1,6 +1,8 @@
 jQuery(document).ready(function($) {
-
-	$("#main-nav").slicknav();
+	
+	$("#main-nav").slicknav({
+		prependTo: '.mobile-menu-wrap'
+	});
 
 	$(".homepage-slides").owlCarousel({
 		items: 1,
