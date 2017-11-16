@@ -1,11 +1,12 @@
 /* Medium Layout: 1280px */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
 .single-product-item {
     height: 250px; margin-bottom: 15px;
 }
 .single-product-item:nth-child(2) {
     height: 520px;
 }
+
 
 }
 /* Tablet Layout: 768px */
