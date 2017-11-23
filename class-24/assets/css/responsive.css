@@ -121,6 +121,14 @@ h1 {
     border-radius: 0;
 }
 
+/* home-2 responsive css */
+
+.logo {
+    display: inline-block;
+    float: left;
+}
+
+
 }
 
 /* Tablet Layout 768px. */
@@ -129,6 +137,11 @@ h1 {
 .slicknav_nav {
     width: 100%;
     margin-left: 0;
+}
+
+.slicknav_menu {
+    z-index: 1;
+    width: 100%;
 }
 
 }
