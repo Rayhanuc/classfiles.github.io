@@ -1522,24 +1522,54 @@ a.comment-reply-btn {
     float: left;
 }
 
-.submit-btn {
-    position: absolute;
+.searchbar-inner input[type="search"] {
+    width: 60%;
+    padding: 10px;
+    height: 60px;
+}
+
+.searchbar-inner button {
+    width: 38%;
+    background: #0b3b4b;
+    border: 1px solid #fff;
+    height: 60px;
+}
+
+/* color bar css */
+.Switcher li {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul#colors li {
+    width: 35px;
+    height: 35px;
+}
+
+.layout-changer span {
+    display: block;
+    border: 2px solid #34495e;
+    padding: 10px;
     text-align: center;
-    top: 383px;
-    right: 344px;
+    text-transform: uppercase;
+    color: #34495e;
+    font-size: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
 }
 
-
-/* theme color change */
-
-.play-icon, .boxed-btn, .owl-dots div.active,.social-links a:hover, .single-service-item:hover:after, .single-service-item:hover, input[type=submit], button[type=submit],.nav_menu li a:hover, ul.pagination li.active a, .twist-faqs .panel-title a:after, h2.comment-title:after, .comment-form h2:after, .mainmenu li li:hover > a {
-    background-color: blue;
+.layout-changer span.active {
+    background-color: #34495e;
+    color: #fff;
 }
 
-.service-icon, .promo-icon, .testimonial-icon, .single-blog-box a, .error h1, .blog-desc a, .portfolio-filter li.active, .mainmenu li:hover > a, .mainmenu li.mega-menu ul h5 {
-    color: blue;
+body.boxed-layout {
+    background: #ddd;
 }
 
-.register-now-form {
-    border-top: 10px solid blue;
+.site {
+    max-width: 1170px;
+    margin: 20px auto;
+    background: #fff;
+    overflow: hidden;
 }

@@ -23,10 +23,26 @@
 			touchDrag: false,
 		});
 
-			
+		
+		// wondow layout changer start
+		$(".boxed-layout").on("click", function(){
+			$("body").addClass("boxed-layout").removeClass("dafault-layout");
+			$(".layout-changer span").removeClass("active");
+			$(this).addClass("active");			
+		});
+
+		$(".dafault-layout").on("click", function(){
+			$("body").addClass("dafault-layout").removeClass("boxed-layout");
+			$(".layout-changer span").removeClass("active");
+			$(this).addClass("active");
+		});
+		// wondow layout changer end
+
+
+
+		//Search bar
 		$(".search-icon").on("click", function(){
-			$(".search-bar-wrap").addClass("active");
-			
+			$(".search-bar-wrap").addClass("active");			
 		});
 
 

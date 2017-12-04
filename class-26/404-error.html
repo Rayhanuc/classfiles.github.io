@@ -22,6 +22,10 @@
 		<link rel="stylesheet" href="assets/css/slicknav.min.css">
 		<!-- Responsive css -->
 		<link rel="stylesheet" href="assets/css/responsive.css">
+		<!-- ColorNip css -->
+		<link rel="stylesheet" href="assets/css/colornip.min.css">
+		<!-- ColorNip colorTheme css -->
+		<link id="theme" rel="stylesheet" href="assets/css/themes/theme-default.css">
 		<!-- Main/Style css -->
 		<link rel="stylesheet" href="assets/css/style.css">
 
@@ -31,187 +35,241 @@
 
 	</head>
 	<body>
+
+
+		<!-- new markup html start -->
+		<div class="Switcher">
+			<button id="Switcher__control" class="Switcher__control"></button>
+			<h5 style="margin-bottom: 5px">Change Color</h5>
+			<ul id="colors" data-dir="assets/css/themes/">
+				<li data-scheme="theme-magenta" data-color="#9b59b6"></li>
+				<li data-scheme="theme-blue" data-color="#2980b9"></li>
+				<li data-scheme="theme-orange" data-color="#e67e22"></li>
+				<li data-scheme="theme-green" data-color="#27ae60"></li>
+				<li data-scheme="theme-black" data-color="#410041"></li>
+				<li data-scheme="theme-default" data-color="#22bbc0"></li>
+				<li data-scheme="theme-jungle-green" data-color="#26C281"></li>
+				<li data-scheme="theme-redical-red" data-color="#F62459"></li>
+				<li data-scheme="theme-sun-flower" data-color="#f1c40f"></li>
+				<li data-scheme="theme-red" data-color="red"></li>
+				<li data-scheme="theme-sun-green" data-color="#6eff0d"></li>
+				<li data-scheme="theme-pink-dark" data-color="#9a2aa4"></li>
+			</ul>
+
+			<h5>Change Layout</h5>
+
+			<div class="layout-changer">
+				<span class="boxed-layout">Boxed layout</span>
+				<span class="dafault-layout active">Default layout</span>
+			</div>
+		</div>
+
+
+
+		<div class="search-bar-wrap">
+			<span class="search-close"><i class="fa fa-close"></i></span>
+			<div class="search-bar-tabel">
+				<div class="searchbar-tablecell">
+					<div class="searchbar-inner">
+						<h2>Search</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, quaerat corporis doloribus ullam obcaecati saepe eveniet architecto ipsum ex laboriosam. Dolor sit iste ut, reiciendis similique impedit? Harum, eius veniam.</p>
+
+						<form action="home-2.html">
+							<input class="search-box" type="search" placeholder="Type keywords ....">
+							<button class="submit-btn" type="submit">Search <i class="fa fa-arrow-right"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- new markup html end -->
+
+
+
 		<!-- 404-error page header-area srart -->
-		<div class="header-area header-absolute">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-2 col-xs-4">
-						<div class="logo">
-							<a href="index.html"><img src="assets/img/logo-icon.png" alt=""> twist</a><!-- Logo -->
+		<div class="site">
+			<div class="header-area header-absolute">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 col-xs-4">
+							<div class="logo">
+								<a href="index.html"><img src="assets/img/logo-icon.png" alt=""> twist</a><!-- Logo -->
+							</div>
+						</div>
+						<div class="col-md-8 col-xs-4 text-center">
+							<div class="mobile-menu-wrap"></div><!-- Slicknav Menu -->
+							<div class="mainmenu"><!-- Minmenu css start -->
+								<ul id="main-nav">
+									<li><a href="index.html">Home</a>
+										<ul>
+											<li><a href="index.html">Homepage 1</a></li>
+											<li><a href="home-2.html">Homepage 2</a></li>
+										</ul>
+									</li>
+									<li><a href="about.html">About</a>
+										<ul>
+											<li><a href="team.html">Our Team</a></li>
+											<li><a href="faqs.html">Friquently Asked Questions</a></li>
+											<li><a href="testimonials.html">Testimonials</a></li>
+										</ul>
+									</li>
+									<li><a href="portfolio.html">Portfolio</a>
+										<ul>
+											<li><a href="portfolio.html">Portfolio</a></li>
+											<li><a href="single-portfolio.html">Portfolio Details</a></li>
+										</ul>
+									</li>
+									<li><a href="portfolio.html">Services</a>
+										<ul>
+											<li><a href="services.html">Services</a></li>
+											<li><a href="single-service.html">Service Details</a></li>
+										</ul>
+									</li>
+									<li class="mega-menu"><a href="index.html">Pages</a><!-- Mega menu start -->
+										<ul>
+											<li class="row">
+												<div class="col-md-3">
+													<h5><i class="fa fa-user-circle"></i> Main Pages</h5>
+													<ul>
+														<li><a href="index.html">Homepage</a></li>
+														<li><a href="about.html">About</a></li>
+														<li><a href="services.html">Services</a></li>
+														<li><a href="portfolio.html">Portfolio</a></li>
+														<li><a href="contact.html">Contact</a>
+													</ul>
+												</div>
+												<div class="col-md-3">
+													<h5><i class="fa fa-user-circle"></i> Other Pages</h5>
+													<ul>
+														<li><a href="team.html">Our Team</a></li>
+														<li><a href="faqs.html">Friquently Asked Questions</a></li>
+														<li><a href="testimonials.html">Testimonials</a></li>
+														<li><a href="blog.html">Blog</a></li>
+														<li><a href="single-post.html">Blog Details</a></li>
+													</ul>
+												</div>
+												<div class="col-md-3">
+													<h5><i class="fa fa-user-circle"></i> Special Pages</h5>
+													<ul>
+														<li><a href="404-error.html">404 Page</a></li>
+														<li><a href="faqs.html">Friquently Asked Questions</a></li>
+														<li><a href="">Our Members</a></li>
+														<li><a href="">Services we offer</a></li>
+														<li><a href="">Contact with us</a></li>
+														<li><a href="">Single Portfolio</a>
+													</ul>
+												</div>
+												<div class="col-md-3">
+													<h5><i class="fa fa-user-circle"></i> Other Links</h5>
+													<ul>
+														<li><a href="https://themeforest.net/">Themeforest</a></li>
+														<li><a href="https://graphicriver.net/">Graphicriver</a></li>
+														<li><a href="https://www.templatemonster.com/">Templatemonster</a></li>
+														<li><a href="https://www.wix.com/">Wix</a></li>
+														<li><a href="http://www.artisteer.com/">Artisteer</a></li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</li><!-- Mega menu end -->
+									<li><a href="blog.html">Blog</a>
+										<ul>
+											<li><a href="blog.html">Blog</a></li>
+											<li><a href="single-post.html">Blog Details</a></li>
+										</ul>
+									</li>
+									<li><a href="contact.html">Contact</a>
+										<ul>
+											<li><a href="contact.html">Contact Us</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div><!-- Minmenu css end -->
+						</div>
+						<div class="col-md-2 col-xs-4 text-right">
+							<a href="#">
+								<span class="search-icon"><i class="fa fa-search"></i></span><!-- Search -->
+							</a>
 						</div>
 					</div>
-					<div class="col-md-8 col-xs-4 text-center">
-						<div class="mobile-menu-wrap"></div><!-- Slicknav Menu -->
-						<div class="mainmenu"><!-- Minmenu css start -->
-							<ul id="main-nav">
-								<li><a href="index.html">Home</a>
-									<ul>
-										<li><a href="index.html">Homepage 1</a></li>
-										<li><a href="home-2.html">Homepage 2</a></li>
-									</ul>
-								</li>
-								<li><a href="about.html">About</a>
-									<ul>
-										<li><a href="team.html">Our Team</a></li>
-										<li><a href="faqs.html">Friquently Asked Questions</a></li>
-										<li><a href="testimonials.html">Testimonials</a></li>
-									</ul>
-								</li>
-								<li><a href="portfolio.html">Portfolio</a>
-									<ul>
-										<li><a href="portfolio.html">Portfolio</a></li>
-										<li><a href="single-portfolio.html">Portfolio Details</a></li>
-									</ul>
-								</li>
-								<li><a href="portfolio.html">Services</a>
-									<ul>
-										<li><a href="services.html">Services</a></li>
-										<li><a href="single-service.html">Service Details</a></li>
-									</ul>
-								</li>
-								<li class="mega-menu"><a href="index.html">Pages</a><!-- Mega menu start -->
-									<ul>
-										<li class="row">
-											<div class="col-md-3">
-												<h5><i class="fa fa-user-circle"></i> Main Pages</h5>
-												<ul>
-													<li><a href="index.html">Homepage</a></li>
-													<li><a href="about.html">About</a></li>
-													<li><a href="services.html">Services</a></li>
-													<li><a href="portfolio.html">Portfolio</a></li>
-													<li><a href="contact.html">Contact</a>
-												</ul>
-											</div>
-											<div class="col-md-3">
-												<h5><i class="fa fa-user-circle"></i> Other Pages</h5>
-												<ul>
-													<li><a href="team.html">Our Team</a></li>
-													<li><a href="faqs.html">Friquently Asked Questions</a></li>
-													<li><a href="testimonials.html">Testimonials</a></li>
-													<li><a href="blog.html">Blog</a></li>
-													<li><a href="single-post.html">Blog Details</a></li>
-												</ul>
-											</div>
-											<div class="col-md-3">
-												<h5><i class="fa fa-user-circle"></i> Special Pages</h5>
-												<ul>
-													<li><a href="404-error.html">404 Page</a></li>
-													<li><a href="faqs.html">Friquently Asked Questions</a></li>
-													<li><a href="">Our Members</a></li>
-													<li><a href="">Services we offer</a></li>
-													<li><a href="">Contact with us</a></li>
-													<li><a href="">Single Portfolio</a>
-												</ul>
-											</div>
-											<div class="col-md-3">
-												<h5><i class="fa fa-user-circle"></i> Other Links</h5>
-												<ul>
-													<li><a href="https://themeforest.net/">Themeforest</a></li>
-													<li><a href="https://graphicriver.net/">Graphicriver</a></li>
-													<li><a href="https://www.templatemonster.com/">Templatemonster</a></li>
-													<li><a href="https://www.wix.com/">Wix</a></li>
-													<li><a href="http://www.artisteer.com/">Artisteer</a></li>
-												</ul>
-											</div>
-										</li>
-									</ul>
-								</li><!-- Mega menu end -->
-								<li><a href="blog.html">Blog</a>
-									<ul>
-										<li><a href="blog.html">Blog</a></li>
-										<li><a href="single-post.html">Blog Details</a></li>
-									</ul>
-								</li>
-								<li><a href="contact.html">Contact</a>
-									<ul>
-										<li><a href="contact.html">Contact Us</a></li>
-									</ul>
-								</li>
+				</div>
+			</div><!-- 404-error page header-area end -->
+
+
+			<!-- 404-error page breadcromb-area start-->
+			<div class="breadcromb-area breadcromb-bg-1 black-overlay">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h2>404 Error Page</h2>
+							<a href="index.html">Home</a> <i class="fa fa-angle-double-right"></i> 404 Error Page
+						</div>
+					</div>
+				</div>
+			</div><!-- 404-error page breadcromb-area end-->
+
+			
+			<!-- 404-error page section-padding error-404 start -->
+			<div class="section-padding error-404">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center">
+							<div class="error">
+								<h1>Error 404!</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat consectetur explicabo commodi, quaerat, aliquid, delectus tempore obcaecati quam inventore molestias impedit hic deleniti excepturi quos!</p>
+
+								<a href="index.html" class="boxed-btn">Go Home</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- 404-error page section-padding error-404 end -->
+			
+			
+			<!-- 404-error page footer area start -->
+			<div class="footer-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<h3 class="footer-logo">
+								<img src="assets/img/logo-icon.png" alt="">	twist
+							</h3>
+
+							<p>Saudi Arabia has been accused of using anti-terror laws to suppress free expression and failing to carry out independent inquiries into its Yemen.</p>
+						</div>
+						<div class="col-md-2 col-md-offset-1">
+							<ul>
+								<li><a href="about.html">About</a></li>
+								<li><a href="services.html">Service</a></li>
+								<li><a href="team.html">Team</a></li>
+								<li><a href="index.html">Privacy Policy</a></li>
 							</ul>
-						</div><!-- Minmenu css end -->
-					</div>
-					<div class="col-md-2 col-xs-4 text-right">
-						<span class="search-icon"><i class="fa fa-search"></i></span><!-- Search -->
-					</div>
-				</div>
-			</div>
-		</div><!-- 404-error page header-area end -->
-
-
-		<!-- 404-error page breadcromb-area start-->
-		<div class="breadcromb-area breadcromb-bg-1 black-overlay">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<h2>404 Error Page</h2>
-						<a href="index.html">Home</a> <i class="fa fa-angle-double-right"></i> 404 Error Page
-					</div>
-				</div>
-			</div>
-		</div><!-- 404-error page breadcromb-area end-->
-
-		
-		<!-- 404-error page section-padding error-404 start -->
-		<div class="section-padding error-404">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center">
-						<div class="error">
-							<h1>Error 404!</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat consectetur explicabo commodi, quaerat, aliquid, delectus tempore obcaecati quam inventore molestias impedit hic deleniti excepturi quos!</p>
-
-							<a href="index.html" class="boxed-btn">Go Home</a>
+						</div>
+						<div class="col-md-2">
+							<ul>
+								<li><a href="testimonials.html">Testimonials</a></li>
+								<li><a href="faqs.html">Support</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+								<li><a href="blog.html">Blog</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h3>Follow Us</h3>
+							<div class="social-links"><!-- social link -->
+								<a href="www.facebook.com"><i class="fa fa-facebook"></i></a>
+								<a href="www.twitter.com"><i class="fa fa-twitter"></i></a>
+								<a href="www.linkedin.html"><i class="fa fa-linkedin"></i></a>
+								<a href="www.youtube.com"><i class="fa fa-youtube"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</div><!-- 404-error page section-padding error-404 end -->
-		
+			</div><!-- 404-error page footer area end -->
+		</div><!-- body site end -->
 
 
 		
-		<!-- 404-error page footer area start -->
-		<div class="footer-area">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<h3 class="footer-logo">
-							<img src="assets/img/logo-icon.png" alt="">	twist
-						</h3>
-
-						<p>Saudi Arabia has been accused of using anti-terror laws to suppress free expression and failing to carry out independent inquiries into its Yemen.</p>
-					</div>
-					<div class="col-md-2 col-md-offset-1">
-						<ul>
-							<li><a href="about.html">About</a></li>
-							<li><a href="services.html">Service</a></li>
-							<li><a href="team.html">Team</a></li>
-							<li><a href="index.html">Privacy Policy</a></li>
-						</ul>
-					</div>
-					<div class="col-md-2">
-						<ul>
-							<li><a href="testimonials.html">Testimonials</a></li>
-							<li><a href="faqs.html">Support</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
-							<li><a href="blog.html">Blog</a></li>
-						</ul>
-					</div>
-					<div class="col-md-3">
-						<h3>Follow Us</h3>
-						<div class="social-links"><!-- social link -->
-							<a href="www.facebook.com"><i class="fa fa-facebook"></i></a>
-							<a href="www.twitter.com"><i class="fa fa-twitter"></i></a>
-							<a href="www.linkedin.html"><i class="fa fa-linkedin"></i></a>
-							<a href="www.youtube.com"><i class="fa fa-youtube"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!-- 404-error page footer area end -->
-
-		
-		<!--  All link Should be link properly -->
+		<!-- all link file should be link properly -->
 		<!-- Modal video js -->
 		<script src="assets/js/jquery-modal-video.min.js"></script>
 		<!-- Bootstrap js -->
@@ -224,6 +282,8 @@
 		<script src="assets/js/jquery-isotope-3.0.4.min.js"></script>
 		<!-- Slicknav js -->
 		<script src="assets/js/jquery.slicknav.min.js"></script>
+		<!-- ColorNip js -->
+		<script src="assets/js/colornip.min.js"></script>
 		<!-- Main/Scripts js -->
 		<script src="assets/js/scripts.js"></script>
 	</body>
