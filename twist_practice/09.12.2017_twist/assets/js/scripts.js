@@ -8,12 +8,30 @@ jQuery(document).ready(function($){
 		autoplay: false
 	});
 
-	$(".team-list").owlCarousel({
+	$(".team-list, .testimonial-list").owlCarousel({
 		items: 3,
 		margin: 30,
 		loop: true,
 		nav: false,
 		dots: true,
+		autoplay: false
+	});
+
+	$(".testimonial-list").owlCarousel({
+		items: 3,
+		margin: 30,
+		loop: true,
+		nav: false,
+		dots: true,
+		autoplay: false
+	});
+
+	$(".logo-carousel").owlCarousel({
+		items: 5,
+		margin: 30,
+		loop: true,
+		nav: false,
+		dots: false,
 		autoplay: false
 	});
 
