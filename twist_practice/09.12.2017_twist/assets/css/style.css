@@ -5,7 +5,7 @@ body {
 	color: #888888;
 }
 
-h1, h2, h3, h4, h5, h6 {font-family: 'Zilla Slab', serif;}
+h1, h2, h3, h4, h5, h6, input[type="submit"] {font-family: 'Zilla Slab', serif;}
 
 a:hover, a:focus {text-decoration: none;}
 input:focus, button:focus, textarea:focus {outline: none;}
@@ -565,4 +565,77 @@ body {
 
 .no-padding {
     padding: 40px 0 15px;
+}
+
+
+/* Home Page - 2 css start */
+
+.hero-area {
+    background-image: url(../img/hero-bg.jpg);
+}
+
+.hero-area {
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+
+.hero-text {
+    font-size: 16px;
+    margin-top: 130px;
+}
+
+.hero-text h2 {
+    font-size: 45px;
+    color: #fff;
+    line-height: 48px;
+    margin-bottom: 22px;
+}
+
+.register-now-form {
+    background: #fff;
+    padding: 60px;
+    border-top: 10px solid #0bbbc1;
+}
+
+input, button, textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+input [type=submit],
+ button [type=submit] {
+    width: auto;
+    border: none;
+    background-color: #0bbbc1;
+}
+
+input[type="submit"] {
+    background-color: #0bbbc1;
+    font-weight: 700;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    color: #000;
+}
+
+.register-now-form p {
+    margin-bottom: 20px;
+}
+
+.register-now-form h3 {
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+.register-now-form h3
+ span {
+    color: red;
+}
+
+.register-now-form p:last-child {
+    margin-bottom: 0;
 }
