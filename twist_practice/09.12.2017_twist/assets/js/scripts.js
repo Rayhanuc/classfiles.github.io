@@ -35,6 +35,14 @@ jQuery(document).ready(function($){
 		autoplay: false
 	});
 
+	$(".portfolio-list").isotope({
+		layoutMode: 'masonry',
+		masonry: {
+			columnwidth: '.col-md-3',
+			horizontalOrder: false
+		}
+	});
+
 	/* Circle Progress bar start */
 	$("#web-design-bar").circleProgress({
 		value: .90,
@@ -63,4 +71,6 @@ jQuery(document).ready(function($){
 		$(this).find('.skil-cound-no').html(Math.round(84*progress) + '<i>%</i>');
 	});
 	/* Circle Progress bar end */
-})
+
+
+});
