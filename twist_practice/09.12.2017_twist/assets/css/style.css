@@ -812,3 +812,23 @@ input[type="text"], input[type="email"], input[type="password"] {
 .service-description {
     padding-left: 20px;
 }
+
+.portfolio-filter {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+    margin: 0 0 50px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    list-style: none;
+}
+
+.portfolio-filter li {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.portfolio-filter li.active {
+    color: #0bbbc1;
+}

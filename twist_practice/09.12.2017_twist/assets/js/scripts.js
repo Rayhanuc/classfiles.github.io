@@ -35,10 +35,26 @@ jQuery(document).ready(function($){
 		autoplay: false
 	});
 
+	$(".portfolio-filter li").on('click', function(){
+		$(".portfolio-filter li").removeClass("active");
+		$(this).addClass("active");
+
+		var filterValue = $(this).attr("data-filter");
+
+		$(".portfolio-list").isotope({
+			filter: filterValue,
+			layoutMode: 'masonry',
+			masonry: {
+				columnWidth: '.col-md-3',
+				horizontalOrder: false
+			}
+		});
+	});
+
 	$(".portfolio-list").isotope({
 		layoutMode: 'masonry',
 		masonry: {
-			columnwidth: '.col-md-3',
+			columnWidth: '.col-md-3',
 			horizontalOrder: false
 		}
 	});
