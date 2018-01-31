@@ -837,3 +837,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 .portfolio-filter li.active {
     color: #0bbbc1;
 }
+
+.testimonials-area .single-testimonial-item {
+    box-shadow: 0 0 4px #ddd;
+}
