@@ -66,7 +66,7 @@ jQuery(document).ready(function($){
 		thickness: 2,
 		fill: '#0bbbc1',		
 	}).on('circle-animation-progress', function(event, progress){
-		$(this).find('.skil-cound-no').html(Math.round(90*progress) + '<i>%</i>');
+		$(this).find('.skil-count-no').html(Math.round(90*progress) + '<i>%</i>');
 	});
 
 	$("#graphic-design-bar").circleProgress({
@@ -75,7 +75,7 @@ jQuery(document).ready(function($){
 		thickness: 2,
 		fill: '#0bbbc1',		
 	}).on('circle-animation-progress', function(event, progress){
-		$(this).find('.skil-cound-no').html(Math.round(95*progress) + '<i>%</i>');
+		$(this).find('.skil-count-no').html(Math.round(95*progress) + '<i>%</i>');
 	});
 
 	$("#digital-marketing-bar").circleProgress({
@@ -84,7 +84,7 @@ jQuery(document).ready(function($){
 		thickness: 2,
 		fill: '#0bbbc1',		
 	}).on('circle-animation-progress', function(event, progress){
-		$(this).find('.skil-cound-no').html(Math.round(84*progress) + '<i>%</i>');
+		$(this).find('.skil-count-no').html(Math.round(84*progress) + '<i>%</i>');
 	});
 	/* Circle Progress bar end */
 
