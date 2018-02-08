@@ -841,3 +841,52 @@ input[type="text"], input[type="email"], input[type="password"] {
 .testimonials-area .single-testimonial-item {
     box-shadow: 0 0 4px #ddd;
 }
+
+
+/* faqs page css */
+
+
+.twist-faqs .panel-default>.panel-heading {
+    background: none;
+}
+
+.twist-faqs {}
+
+.twist-faqs.panel-group .panel.panel-default .panel-body {
+    border: none;
+}
+
+.twist-faqs .panel-default {
+    background: #FBFBFB;
+    margin-bottom: 14px;
+    border: none;
+    box-shadow: 0 0 5px #EAE6F0;
+}
+
+.twist-faqs .panel-heading {
+    padding: 0;
+}
+
+.twist-faqs .panel-title a {
+    display: block;
+    padding: 16px;
+    position: relative;
+}
+
+.twist-faqs .panel-title a:after {
+    content: "+";position: absolute;
+    right: 0;background: #0BBBC1;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    line-height: 28px;
+    right: 14px;
+    top: 50%;
+    margin-top: -15px;
+}
+
+.twist-faqs .panel-title a[aria-expanded="true"]:after {
+    content: "-";
+}
