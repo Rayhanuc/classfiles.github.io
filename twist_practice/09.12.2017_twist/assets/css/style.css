@@ -336,7 +336,7 @@ body {
 .black-overlay {
     position: relative;
     z-index: 2;
-    100
+    color:#fff;
 }
 
 .black-overlay:after {
