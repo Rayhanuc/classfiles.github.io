@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
 }
 
 .section-padding {
-    padding: 120px;
+    padding: 120px 0 0;
 }
 
 .self-area {
@@ -73,4 +73,63 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
 .self-area a {
     color: #fff;
     margin-top: 30px;
+}
+
+.working-process-section h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.working-process-section i.fa {
+    font-size: 40px;
+}
+
+.title h1 {
+    font-size: 43px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.title h5 {
+    font-size: 18px;
+}
+
+.dark-bg .title {
+    margin-bottom: 65px;
+}
+
+.dark-bg-section {
+    background-color: #f6f6f6;
+    padding: 100px;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.bg1 {
+    background: #10c6fc;
+    padding: 80px;
+    color: #fff;
+}
+
+.bg2 {
+    background-color: #835aeb;
+    padding: 80px;
+    color: #fff;
+}
+
+.bg3 {
+    background-color: #002453;
+    padding: 80px;
+    color: #fff;
+}
+
+.bg4 {
+    background-color: #ff2b4a;
+    padding: 80px;
+    color: #fff;
 }
