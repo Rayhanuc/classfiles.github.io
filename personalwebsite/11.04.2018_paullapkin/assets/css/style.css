@@ -1,0 +1,44 @@
+/* fonts raleway and roboto */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body {font-family:'Raleway', sans-serif;}
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
+
+.slide-bg-1 {background-image: url(../img/slide-bg.jpg);}
+
+
+
+.single-slide-item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-color: #2b0b2d;
+}
+
+.slide-line h1 {
+    color: #fff;
+    font-size: 89px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.slide-line h4 {
+    color: #fff;
+    font-size: 27.5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.slide-area {
+    padding: 280px 0 431px;
+}
+
+.header-absolut {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    padding: 25px 0;
+}
