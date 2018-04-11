@@ -168,3 +168,33 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
     background-color: #f6f6f6;
     padding-bottom: 100px;
 }
+
+
+
+.singe-area i.fa {
+    font-size: 70px;
+    color: #317688;
+    margin-bottom: 80px;
+}
+
+.singe-area p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #317688;
+    margin-bottom: 60px;
+}
+
+.singe-area h6 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #317688;
+}
+
+.signature-area {
+    background-color: #64cbc0;
+    padding: 140px 0;
+}
+
+.singe-area img {
+    margin-bottom: 30px;
+}
