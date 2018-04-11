@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
 
 .dark-bg-section {
     background-color: #f6f6f6;
-    padding: 100px 0 26px;
+    padding: 100px 0 70px;
 }
 
 .title {
@@ -162,4 +162,9 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
     position: relative;
     background-size: cover;
     background-position: center;
+}
+
+.dark {
+    background-color: #f6f6f6;
+    padding-bottom: 100px;
 }
