@@ -5,6 +5,14 @@ body {font-family:'Raleway', sans-serif;}
 
 h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
 
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    background: none;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
 .slide-bg-1 {background-image: url(../img/slide-bg.jpg);}
 
 
@@ -87,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
 }
 
 .title h1 {
-    font-size: 43px;
+    font-size: 26px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     margin-bottom: 20px;
@@ -180,14 +188,14 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
 .singe-area p {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    color: #317688;
+    color: #07211e;
     margin-bottom: 60px;
 }
 
 .singe-area h6 {
     font-size: 18px;
     font-weight: 700;
-    color: #317688;
+    color: #07211e;
 }
 
 .signature-area {
@@ -197,4 +205,86 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
 
 .singe-area img {
     margin-bottom: 30px;
+}
+
+.contact-area-bg {background-image: url(../img/slide-bg.jpg);}
+.input-bg {background-image: url(../img/message-bg.png);}
+
+.message-area input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.address-bg-1 {background-image: url(../img/contact-info-bg-1.png);}
+
+
+
+
+.address-area {
+    color: #fff;
+}
+
+.contact {
+    padding: 45px;
+    margin-bottom: 67px;
+}
+
+.contact h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.contact p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.address-area {
+    margin: 125px 0;
+}
+
+.leave-a-message-area {
+    padding: 64px 46px;
+    margin: 125px 0;
+    padding-bottom: 106px;
+}
+
+.contact-form ::placeholder {
+    color: #c4c4c4;
+}
+
+.leave-a-message-area .title {
+    color: #fff;
+}
+
+.contact-form .boxed-btn {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.contact-form a {
+    float: right;
+}
+
+.copyright-text {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #9c9c9c;
+}
+
+.social-icon a {
+    margin-right: 5px;
+    color: #fff;
+}
+
+.copyright-area {
+    margin: 64px 0;
+}
+
+.copyright-section {
+    background: #222222;
+}
+
+.social-icon .twitter-icon {
+    color: #ff2b4a;
 }
