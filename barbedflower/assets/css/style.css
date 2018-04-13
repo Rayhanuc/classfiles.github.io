@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css?family=Varela');
+
+body {
+    font-family: 'Varela', sans-serif;
+}
+
+body, p {
+    margin: 0;
+    padding: 0;
+    color: #656565;
+    font-family: 'Varela', sans-serif;
+    font-weight: 300;
+    line-height: 1.9;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+body, p {
+    color: #333;
+}
+
+ol, ul
+    {
+        padding: 0;
+        list-style: none;
+    }
+
+a:hover {
+    text-decoration: none;
+}
+
+.header-wrapper {
+    background: #af1641;
+}
+
+.logo h1 {
+    margin: 15px 0;
+}
+
+.logo h1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 13px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+.menu li a:hover {
+    background: #e8275d;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo h1 {
+    margin: 15px 0;
+}
+
+.banner {
+    background: #af1641;
+    padding: 100px 0 30px;
+}
+
+.banner .title {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 40px;
+}
+
+.title .byline {
+    font-size: 25px;
+    color: #6F6F6F;
+}
+
+.banner .title .byline {
+    color: #b1b1b1;
+}
+
+
+
+ul.actions {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 40px;
+    background: #af1641;
+    border-radius: 7px;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+}
+
+.actions .button {
+    margin-top: 3em;
+    background: #e6517b;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+        color: #fff;
+}
+
+.banner2 {
+    text-align: center;
+    margin: 100px 
+}
+
+.banner2 .title .byline {
+    font-size: 24px;
+    color: #6F6F6F;
+    margin-bottom: 30px;
+
+}
+
+.banner2 .actions .button {
+    margin-top: 3em;
+    background: #af1641;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.banner3 .actions .button {
+    margin-top: 3em;
+    background: #ffffff;
+    color: #af1641;
+}
+
+.banner3 .title .byline {
+    font-size: 25px;
+    color: #a2a2a2;
+}
+
+.banner3 {
+    text-align: center;
+    background: #af1641;
+    padding: 100px 0;
+}
+
+.banner3 .title {
+    color: #fff;
+}
+
+.banner3 .content {
+    color: #a3999f;
+}
+
+.content strong {
+    color: #d0d0d0;
+}
+
+.banner3 img {
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.content a {
+    text-decoration: underline;
+}
+
+.content a:hover {
+    text-decoration: none;
+}
+
+.banner4 {
+    text-align: center;
+    margin: 100px 0;
+}
+
+
+.banner4 .text-box {
+    border: 1px solid #ddd;
+    padding: 50px 30px;
+    border-radius: 8px;
+}
+
+.banner4 .text-box p {
+    font-family: arial;
+    font-size: 15px;
+}
+
+.banner4 .text-box .col-md-4 {
+    margin-right: 0;
+}
+
+.copyright-area {
+    background: #3c3c3c;
+    color: #fff;
+}
+
+.copyright-text {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.copyright-text p {
+    color: #a9a9a9;
+}
+
+.copyright-text p span {
+    color: #fff;
+}
