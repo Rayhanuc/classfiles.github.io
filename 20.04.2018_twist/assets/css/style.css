@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i|Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i');
 
-h1, h2, h3, h4, h5, h6 {font-family: 'Zilla Slab', serif; }
+h1, h2, h3, h4, h5, h6, input[type=submit], button[type=submit] {font-family: 'Zilla Slab', serif; }
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -119,9 +119,10 @@ body {
     background: #22bbc0;
     font-family: 'Zilla Slab', serif;
     font-weight: 700;
-    padding: 15px 40px;
+    padding: 10px 35px;
     display: inline-block;
     border-radius: 50px;
+    color: #fff;
 }
 
 .slide-text {
@@ -583,4 +584,228 @@ body {
 
 .logo-carousel {
     margin: -30px 0;
+}
+
+/*  ===================
+        home-2.html css
+    ==================== */
+
+.hero-area {background-image: url(../img/hero-bg.jpg);}
+.section-bg-2 {background-image: url(../img/section-bg-2.jpg);}
+.section-bg-2 {background-image: url(../img/section-bg-2.jpg);}
+
+.hero-area {
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+
+.hero-text {
+    font-size: 16px;
+    margin-top: 120px;
+}
+
+.hero-text h2 {
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 22px;
+}
+
+.register-now-form {
+    background: #fff;
+    padding: 60px;
+    border-top: 10px solid #0bbbc1;
+}
+
+input, button, textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+input[type=submit], button[type=submit] {
+    width: auto;
+    border: none;
+    background-color: #0bbbc1;
+    font-weight: 700;
+}
+
+.register-now-form p {
+    margin-bottom: 20px;
+}
+
+.register-now-form h3 {
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+.register-now-form h3 span {
+    color: #e3121c;
+}
+
+.register-now-form p:last-child {
+    margin-bottom: 0;
+}
+
+.register-now-form input[type=submit] {
+    width: 100%;
+}
+
+.register-now-form input {
+    color: #000;
+}
+
+.register-now-form input[type=submit] {
+    color: #fff;
+}
+
+.section-gray-bg {
+    background: #FBFBFB;
+}
+
+.text-area {
+    margin-top: 50px;
+}
+
+
+.text-area h2 {
+    margin: 25px 0;
+}
+
+.text-area p {
+    margin-bottom: 20px;
+}
+
+.text-area .boxed-btn {
+    margin-top: 20px;
+}
+.ticker-text {
+    background: #2F2F2F;
+    color: #fff;
+    padding: 5px 29px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.margin-80 {
+    margin: 80px 0;
+}
+
+.service-box .service-icon {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.service-box h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.service-box {
+    margin-bottom: 50px;
+    padding: 30px 20px;
+}
+
+.service-box:hover {
+    background: #FAFAFA;
+}
+
+.margin-20 {
+    margin: 20px 0;
+}
+
+.theme-2 .single-team-item {
+    box-shadow: 0 0 6px #f1f1f1;
+    margin: 4px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.theme-2 .single-team-item:hover {
+    box-shadow: 0 0 0;
+    border: 1px solid #22bbc0;
+}
+
+.margin-bottom-80 {
+    margin-bottom: 80px;
+}
+
+.single-blog-box {
+    box-shadow: 0 0 4px #f1f1f1;
+    padding: 26px;
+}
+
+.single-blog-box a {
+    color: #22BBC0;
+}
+
+.single-blog-box a i.fa {
+    padding-left: 5px;
+}
+
+.single-blog-box h3 {
+    font-size: 18px;
+}
+
+.footer-area.dark-bg {
+    background-color: #131313;
+}
+
+.footer-area.dark-bg, .footer-area.dark-bg a, .footer-area.dark-bg h3 {
+    color: #fff;
+}
+
+.dark-bg .social-links a {
+    border-color: #fff;
+}
+
+
+/*  ===================
+        about.html css
+    ==================== */
+
+
+.breadcromb-bg-1 {background-image: url(../img/section-bg-4.jpg);}
+
+.section-bg-3 {background-image: url(../img/section-bg-3.jpg);}
+
+.breadcromb-area {
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+
+.breadcromb-area, .breadcromb-area a {
+    color: #fff;
+}
+
+.breadcromb-area h2 {
+    font-size: 36px;
+}
+
+.breadcromb-area i.fa {
+    padding: 0 7px;
+}
+
+.black-overlay h4 {
+    color: #fff;
+}
+
+.service-icon-2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.service-icon-2 img {
+    max-width: 50px;
+}
+
+.footer-area.about-footer ul {
+    font-size: 16px;
 }
