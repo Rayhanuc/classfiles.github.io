@@ -180,7 +180,7 @@
 		$(".portfolio-list").isotope ({
 			layoutMode: 'masonry',
 			masonry: {
-				columnwidth: '.col-md-4',
+				columnwidth: '.col-md-3',
 				horizontalOrder: false,
 			}
 		});

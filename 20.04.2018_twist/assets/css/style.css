@@ -864,3 +864,29 @@ input[type=submit], button[type=submit] {
 .service-description {
     padding-left: 20px;
 }
+
+
+/*  ===================
+        portfolio.html css
+    ==================== */
+
+.portfolio-filter {
+    margin: 0 50px;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+.portfolio-filter li {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.portfolio-filter li.active {
+    color: #0bbbc1;
+}
