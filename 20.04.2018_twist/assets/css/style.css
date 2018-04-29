@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.3;
 }
 
+img {
+    max-width: 100%; height: auto;
+}
+
 a:hover, a:focus {text-decoration: none;}
 
 input:focus, button:focus, textarea:focus {outline: none;}
@@ -192,6 +196,10 @@ body {
 }
 .space-70 {
     height: 70px;
+}
+
+.space-45 {
+    height: 45px;
 }
 
 
@@ -889,4 +897,13 @@ input[type=submit], button[type=submit] {
 
 .portfolio-filter li.active {
     color: #0bbbc1;
+}
+
+
+/*  ===================
+        testimonials.html css
+    ==================== */
+
+.testimonials-area .single-testimonial-item {
+    box-shadow: 0 0 4px #ddd;
 }
