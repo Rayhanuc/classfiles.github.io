@@ -907,3 +907,54 @@ input[type=submit], button[type=submit] {
 .testimonials-area .single-testimonial-item {
     box-shadow: 0 0 4px #ddd;
 }
+
+
+
+/*  ===================
+        faqs.html css
+    ==================== */
+
+.twist-faqs .panel-default>.panel-heading {
+    background: none;
+}
+
+.twist-faqs.panel-group .panel.panel-default .panel-collapse .panel-body {
+    border: none;
+}
+
+.twist-faqs .panel.panel-default {
+    background: #FAFAFA;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 0 0 5px #ebe7f0;
+}
+
+.twist-faqs .panel-heading {
+    padding: 0;
+}
+
+.twist-faqs .panel-title a {
+    display: block;
+    padding: 16px;
+    position: relative;
+}
+
+.twist-faqs .panel-title a:after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    background: #22bbc0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    line-height: 26px;
+    right: 14px;
+    top: 50%;
+    margin-top: -15px;
+}
+
+.twist-faqs .panel-title a[aria-expanded="true"]:after {
+    content: "-";
+}
