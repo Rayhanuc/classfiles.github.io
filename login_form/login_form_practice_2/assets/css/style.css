@@ -7,7 +7,7 @@
 
 body {
     background: #448ed3;
-    font-family: l;
+    font-family: lato;
 }
 
 .wrap {
@@ -78,7 +78,7 @@ body {
     position: relative;
     left: 189px;
     top: -36px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .wrap button {
