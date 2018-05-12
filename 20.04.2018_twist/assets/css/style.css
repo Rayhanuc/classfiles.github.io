@@ -995,7 +995,9 @@ input[type=submit], button[type=submit] {
     color: #0bbbc1;
 }
 
-.blog-dsc {}
+.blog-dsc {
+    padding-top: 45px;
+}
 
 ul.pagination li a {
     border: none;
