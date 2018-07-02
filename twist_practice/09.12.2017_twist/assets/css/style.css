@@ -1235,7 +1235,7 @@ button {
     padding-left: 20px;
 }
 
-
+/* dropdown menu */
 .mainmenu li ul li a {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1264,10 +1264,30 @@ button {
   top: 52px;
 }
 
-.mainmenu ul li:hover> a {
-  background: #0bbbc1;
-  color: #fff;
+.mainmenu ul li:hover > a {
+    color: #0bbbc1;
 }
+
 .mainmenu ul li > a {
   transition: .4s;
+}
+
+.mainmenu ul li ul li:hover > a {
+    background: #0bbbc1;
+    color: #fff;
+}
+
+/* second level dropdown menu */
+.mainmenu li:hover ul ul {
+    opacity: 0;
+    visibility: hidden;
+}
+.mainmenu ul ul li ul {
+    left: 230px;
+    
+}
+.mainmenu ul ul li:hover > ul {
+    top: 0;
+    opacity: 1;
+    visibility: visible;
 }
