@@ -55,6 +55,113 @@ img {max-width: 100%; height: auto;}
     padding: 16px;
 }
 
+/* dropdown menu */
+.mainmenu li ul li a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.mainmenu li ul {
+  position: absolute;
+  left: 0px;
+  top: 32px;
+  width: 230px;
+  z-index: 2;
+  text-transform: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.mainmenu li {
+  position: relative;
+}
+.mainmenu li ul li {
+  display: block;
+  text-align: left;
+}
+.mainmenu li:hover ul {
+  visibility: visible;
+  opacity: 1;
+  top: 52px;
+}
+
+.mainmenu ul li:hover > a {
+    color: #0bbbc1;
+}
+
+.mainmenu ul li > a {
+  transition: .4s;
+}
+
+.mainmenu ul li ul li:hover > a {
+    background: #0bbbc1;
+    color: #fff;
+}
+
+/* second level dropdown menu */
+.mainmenu li:hover ul ul {
+    opacity: 0;
+    visibility: hidden;
+}
+.mainmenu ul ul li ul {
+    left: 230px;
+    
+}
+.mainmenu ul ul li:hover > ul {
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Mega Menu start */
+
+.mainmenu li.mega-menu {
+  position: static;
+}
+.mainmenu li.mega-menu ul {
+  width: 100%;
+}
+
+.mainmenu li.mega-menu ul ul{
+    left: 0;
+    top: 0;
+    position: relative;
+}
+.mainmenu li.mega-menu:hover ul ul {
+  opacity: 1;
+  visibility: visible;
+  left: 0;
+  top: 0;
+  position: relative;
+  width: 100%;
+}
+.mainmenu li.mega-menu > ul {
+  background: #454545;
+  padding: 20px;
+}
+.mainmenu li.mega-menu ul li a {
+  padding-left: 0;
+  font-weight: 600;
+}
+.mainmenu li.mega-menu ul li a:hover {
+  background: none;
+  color: #0bbbc1;
+}
+.mainmenu li.mega-menu ul h5 {
+  color: #0bbbc1;
+  left: 5px;
+}
+.mainmenu li.mega-menu ul h5 i.fa {
+  color: #0bbbc1;
+  left: 5px;
+}
+.mainmenu li.mega-menu ul h5 i.fa {
+  margin-right: 5px;
+}
+
+/* Mega Menu End */
+
+
+
 .header-area {
     font-size: 16px;
     font-family: 'Zilla Slab', serif;
@@ -1235,59 +1342,3 @@ button {
     padding-left: 20px;
 }
 
-/* dropdown menu */
-.mainmenu li ul li a {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.mainmenu li ul {
-  position: absolute;
-  left: 0px;
-  top: 32px;
-  width: 230px;
-  z-index: 2;
-  text-transform: none;
-  opacity: 0;
-  visibility: hidden;
-  transition: .3s;
-}
-.mainmenu li {
-  position: relative;
-}
-.mainmenu li ul li {
-  display: block;
-  text-align: left;
-}
-.mainmenu li:hover ul {
-  visibility: visible;
-  opacity: 1;
-  top: 52px;
-}
-
-.mainmenu ul li:hover > a {
-    color: #0bbbc1;
-}
-
-.mainmenu ul li > a {
-  transition: .4s;
-}
-
-.mainmenu ul li ul li:hover > a {
-    background: #0bbbc1;
-    color: #fff;
-}
-
-/* second level dropdown menu */
-.mainmenu li:hover ul ul {
-    opacity: 0;
-    visibility: hidden;
-}
-.mainmenu ul ul li ul {
-    left: 230px;
-    
-}
-.mainmenu ul ul li:hover > ul {
-    top: 0;
-    opacity: 1;
-    visibility: visible;
-}

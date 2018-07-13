@@ -1,3 +1,5 @@
+2nd time practice (started time 09.12.2017)
+
 *About page done.
 *blog page done.
 *faqs page done.
@@ -13,6 +15,6 @@
 
 
 
-class no. 14 done ---------- psd-2-14
-class no. 15 done ---------- psd-2-15
+
 class no. 18 done ---------- psd-2-18
+class no. 19 done ---------- psd-2-19 running 
