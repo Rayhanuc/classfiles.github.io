@@ -30,15 +30,59 @@ body {
 }
 a:hover { text-decoration: none }
 
+
 .title-bg {background-image: url(../img/14.jpg);}
+.section-bg {background-image: url(../img/agsquare.png);}
+
 
 .title-bg {
-    padding: 100px;
+    padding: 100px 0;
     background-size: cover;
     background-position: center;
+    border-bottom: 1px solid #ff7513;
+    z-index: 2;
+}
+
+.title-bg:before {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    opacity: .3;
+    position: absolute;
+    z-index: -1;
 }
 
 .title h2 {
     font-size: 40px;
-    color: #4a4a4a;
+    color: #efefef;
+}
+
+.serial-link {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 200px;
+}
+
+.serial-link li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 15px;
+}
+.serial-link li a {
+    color: #333;
+}
+.serial-link li a:hover {
+    color: #ff7513;
+}
+
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.3;
+  text-decoration: none;
 }

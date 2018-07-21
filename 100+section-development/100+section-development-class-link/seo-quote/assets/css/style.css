@@ -1,0 +1,137 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    margin
+}
+
+.quote-form-wrap img {
+    display: block;
+    margin: 0 auto;
+}
+
+section.section-padding {
+    padding: 80px 0;
+}
+
+.blue-quote-form {
+    background: #19B5FE;
+    margin-top: -75px;
+    padding-top: 27px;
+    max-width: 770px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.blue-quote-form h3 {
+    font-size: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 0;
+}
+
+.blue-quote-form h3::before {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 1px;
+    content: "";
+    background: #fff;
+    width: 130px;
+    margin-left: -65px;
+}
+
+.blue-quote-form h3::after {
+    position: absolute;
+    left: 50%;
+    bottom: -5.5px;
+    height: 13px;
+    width: 13px;
+    content: "";
+    background: #19b5fe;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-left: -6.5px;
+}
+
+.blue-quote-form input, .blue-quote-form textarea {
+    border: none;
+    background: none;
+}
+
+.blue-quote-form input, .blue-quote-form textarea {
+    border-bottom: 1px solid #Bfdafc;
+    width: 100%;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.blue-quote-form textarea {
+    height: 100px;
+}
+
+.blue-form-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.blue-form-submit button[type=submit] {
+    color: #19B5FE;
+    background: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+::placeholder {
+    color: #bfdafc;
+}
+
+/* main page button start */
+.btn {
+    text-transform: uppercase;
+    background: #19b5fe;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 2px 2px 1px #000;
+}
+
+.btn a {
+    color: #fff;
+}
+/* main page button end */
