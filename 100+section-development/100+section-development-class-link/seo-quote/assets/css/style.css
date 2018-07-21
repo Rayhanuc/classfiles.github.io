@@ -35,10 +35,7 @@ a:hover { text-decoration: none }
 }
 
 
-.quote-form-wrap img {
-    display: block;
-    margin: 0 auto;
-}
+
 
 section.section-padding {
     padding: 80px 0;
@@ -116,6 +113,11 @@ section.section-padding {
     padding: 10px;
     border-radius: 2px;
     text-transform: uppercase;
+}
+
+.quote-form-wrap img {
+    display: block;
+    margin: 0 auto;
 }
 
 ::placeholder {
