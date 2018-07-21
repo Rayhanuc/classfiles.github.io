@@ -41,6 +41,7 @@ a:hover { text-decoration: none }
     background-position: center;
     border-bottom: 1px solid #ff7513;
     z-index: 2;
+    position: relative;
 }
 
 .title-bg:before {
