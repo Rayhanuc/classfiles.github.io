@@ -123,3 +123,18 @@ section.section-padding {
 .single-blog-box:hover .blog-box-content {
     border-color: #FD8E2E;
 }
+
+/* main page button start */
+.btn {
+    text-transform: uppercase;
+    background: #19b5fe;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 2px 2px 1px #000;
+}
+
+.btn a {
+    color: #fff;
+}
+/* main page button end */

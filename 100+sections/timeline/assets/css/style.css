@@ -1,0 +1,171 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-padding2 {
+    margin: 40px 0;
+    color: rgba(233,33,99,1);
+}
+
+.timeline {
+    position: relative;
+    margin: 50px auto;
+    width: 1000px;
+}
+
+.timeline ul {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline ul li {
+    list-style: none;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.timeline:before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #c5c5c5;
+}
+
+.timeline ul li:nth-child(odd) {
+    float: left;
+    text-align: right;
+    clear: both;
+}
+
+.timeline ul li:nth-child(even) {
+    float: right;
+    text-align: left;
+    clear: both;
+}
+
+
+.content {
+    padding-bottom: 20px;
+}
+
+.timeline ul li:nth-child(odd):before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    right: -6px;
+    width: 10px;
+    height: 10px;
+    background: rgba(233,33,99,1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
+}
+
+.timeline ul li:nth-child(even):before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background: rgba(233,33,99,1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
+}
+
+.timeline ul li h3 {
+
+    padding: 0;
+    font-weight: 600;
+    color: rgba(233,33,99,1);
+}
+
+.timeline ul li p {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.timeline ul li .time h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.timeline ul li:nth-child(odd) .time {
+    position: absolute;
+    top: 14px;
+    right: -165px;
+    margin: 0;
+    padding: 10px 16px;
+    background: rgba(233,33,99,1);
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 0 3px rgba(233,33,99,0.3);
+}
+
+.timeline ul li:nth-child(even) .time {
+    position: absolute;
+    top: 14px;
+    left: -165px;
+    margin: 0;
+    padding: 10px 16px;
+    background: rgba(233,33,99,1);
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 0 3px rgba(233,33,99,0.3);
+}
+
+
+
+
+
+
+
+
+/* main page button start */
+.btn {
+    text-transform: uppercase;
+    background: #19b5fe;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 2px 2px 1px #000;
+}
+
+.btn a {
+    color: #fff;
+}
+/* main page button end */
