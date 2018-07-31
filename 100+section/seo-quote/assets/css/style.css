@@ -41,6 +41,10 @@ section.section-padding {
     padding: 80px 0;
 }
 
+.quote-form-wrap {
+    margin-top: 80px;
+}
+
 .blue-quote-form {
     background: #19B5FE;
     margin-top: -75px;
