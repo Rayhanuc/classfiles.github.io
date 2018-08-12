@@ -95,14 +95,12 @@ a:hover { text-decoration: none }
     vertical-align: middle;
 }
 
-.section-padding1 {
-    margin-top: 30px;
-}
-
-
 
 
 /* main page button start */
+.section-padding1 {
+    margin-top: 30px;
+}
 .btn {
     text-transform: uppercase;
     background: #19b5fe;

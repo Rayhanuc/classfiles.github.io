@@ -130,3 +130,21 @@ a.bordered-btn:hover {
 .pricing-list ul li:hover {
     padding-left: 5px;
 }
+
+
+/* main page button start */
+.section-padding1 {
+    margin-top: 30px;
+}
+.btn {
+    text-transform: uppercase;
+    background: #19b5fe;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 1px 3px 8px #cccbcb;
+}
+
+.btn a {
+    color: #fff;
+}
+/* main page button end */
