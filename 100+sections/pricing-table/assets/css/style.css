@@ -52,6 +52,7 @@ section.section-padding {
     border: 1px solid #ddd;
     padding: 20px;
     text-align: center;
+    -webkit-transition: .2s;
     transition: .2s;
 }
 
@@ -67,6 +68,7 @@ section.section-padding {
 .pricing-icon {
     font-size: 60px;
     margin-bottom: 20px;
+    -webkit-transition: .3s;
     transition: .3s;
 }
 .single-pricing-box:hover .pricing-icon {
@@ -74,10 +76,12 @@ section.section-padding {
 }
 .single-pricing-box:hover .pricing-icon img {
     opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 }
 
 .pricing-icon img {
     max-width: 70px;
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
@@ -115,6 +119,7 @@ a.bordered-btn {
     padding: 10px 30px;
     border-radius: 50px;
     color: #333;
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
@@ -124,6 +129,7 @@ a.bordered-btn:hover {
 }
 
 .pricing-list ul li {
+    -webkit-transition: .2s;
     transition: .2s;
 }
 

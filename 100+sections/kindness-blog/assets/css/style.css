@@ -75,6 +75,7 @@ section.section-padding {
 .blog-box-content {
     border: 1px solid #f4f4f4;
     padding: 20px;
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
@@ -112,6 +113,7 @@ section.section-padding {
     font-size: 14px;
     font-weight: 700;
     margin-top: 5px;
+    -webkit-transition: .3s;
     transition: .3s;
 }
 

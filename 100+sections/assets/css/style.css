@@ -52,6 +52,7 @@ a:hover { text-decoration: none }
     background: #000;
     content: "";
     opacity: .3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
     position: absolute;
     z-index: -1;
 }
@@ -85,5 +86,6 @@ a:hover { text-decoration: none }
   color: currentColor;
   cursor: not-allowed;
   opacity: 0.3;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
   text-decoration: none;
 }
