@@ -102,8 +102,8 @@ section.section-padding {
 
 /* main page button start */
 .section-padding1 {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    padding: 30px;
+    background: #fafafa;
 }
 .btn {
     text-transform: uppercase;
