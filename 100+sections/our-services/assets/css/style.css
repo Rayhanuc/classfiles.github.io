@@ -1,0 +1,119 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Baloo Bhai', cursive;
+    color: #333;
+}
+body {
+    font-family: 'arial';
+    color: #afafaf;
+    font-size: 14px;
+    line-height: 1.8;
+}
+a:hover { text-decoration: none }
+
+
+.gray-bg {background-color: #fafafa;}
+
+.service-bg-1 {background-image: url(../img/service-bg-1.jpg);}
+.service-bg-2 {background-image: url(../img/service-bg-2.jpg);}
+.service-bg-3 {background-image: url(../img/service-bg-3.jpg);}
+.service-bg-4 {background-image: url(../img/service-bg-4.jpg);}
+
+
+section.section-padding {
+    padding: 80px 0;
+}
+
+.section-title h2 {
+    font-size: 27px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.single-service-item {
+    background-color: #fff;
+    transition: .2s;
+}
+
+.service-bg {
+    height: 225px;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-content {
+    padding: 20px;
+}
+.service-content h3 {
+    font-size: 18px;
+}
+
+.service-more-btn {
+    display: inline-block;
+    color: #2DB670;
+    padding: 10px 0;
+    border-radius: 50px;
+    margin-top: 5px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.service-more-btn i.fa {
+    padding-left: 10px;
+}
+
+.service-more-btn:hover {
+    background-color: #2db670;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.single-service-item:hover {
+    box-shadow: 0 0 25px #e1fff0;
+}
+
+
+/* main page button start */
+.section-padding1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.btn {
+    text-transform: uppercase;
+    background: #19b5fe;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 2px 2px 1px #000;
+}
+
+.btn a {
+    color: #fff;
+}
+/* main page button end */
