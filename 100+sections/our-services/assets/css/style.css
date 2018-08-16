@@ -110,7 +110,7 @@ section.section-padding {
     background: #19b5fe;
     color: #fff;
     font-weight: 700;
-    box-shadow: 2px 2px 1px #000;
+    box-shadow: 1px 3px 8px #cccbcb;
 }
 
 .btn a {
