@@ -10,17 +10,7 @@
         $('[data-toggle="tooltip"]').tooltip();
 
 
-        $(".client-testimonial-carousel").owlCarousel({
-        	items: 3,
-            margin: 30,
-            loop: true,
-            autoplay: true,
-            nav: false,
-            dots: true,
-            autoplaySpeed:1200,
 
-
-        });
         
 
 
